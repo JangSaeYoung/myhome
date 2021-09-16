@@ -1,0 +1,191 @@
+body {
+    margin: 0px;
+    font-family: 'Architects Daughter', cursive;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.header {
+    display: flex;
+    background-color: black;
+    justify-content: space-between;  
+    align-items: center;
+    padding: 8px 12px;
+
+
+}
+
+.header_logo i{
+    color: white;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+
+.header_menu{
+    display: flex;
+    list-style: none;
+    padding-left: 0px;
+}
+
+
+.header_menu li {
+    font-size: 20px;
+    padding: 9px;
+    margin-left: 30px;
+    
+}
+
+.header_menu a:hover {
+    color: yellow;
+    cursor: pointer;
+}
+
+
+.header_icons {
+    list-style: none;
+    color: white;
+    display: flex;
+    margin-right: 10px;
+    padding: 0px;
+
+}
+
+.header_icons li {
+    padding: 5px;
+    font-size: 15px;
+}
+
+
+
+.main {
+    display:flex;
+    justify-content: center;
+    margin:50px auto;
+    padding: 0 3rem;
+    width: 400px;
+    height: 300px;
+    
+}
+
+.main_info{
+    text-align: center;
+    font-size: 30px;
+}
+
+.main_info p {
+    margin: 10px auto;
+    margin-bottom: 10px;
+    width: 900px;
+    height: 150px;
+}
+
+.Main .main_info .button {
+    display: flex;
+}
+
+.main .btn {
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin-left: 25rem;
+}
+
+
+
+
+.footer {
+ padding: 0 3rem;
+}
+
+
+.foot_box {
+    display: flex;
+    justify-content: space-between;  
+
+}
+
+.footer .foot_box .skill:hover{
+    transform: rotate( 20deg );
+
+}
+
+.footer .foot_box .fav:hover{
+    transform: rotate( -20deg );
+
+}
+
+.footer .foot_box .career:hover{
+    transform: rotate( 20deg );
+
+}
+
+.section .trav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 20%;
+    left: 38%;
+}
+
+.section .study {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 70%;
+    left: 40%;
+}
+
+
+.section .pho1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    padding: 5rem;
+    margin-left: 13rem;
+    
+}
+
+.section .pho2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    padding: 30rem;
+}
+
+
+.section .home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    padding: 5rem;
+    margin-left: 5rem;
+
+}
+
+.section .home1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    padding: 10rem;
+    margin-top: 15rem;
+}
+
+.section .home2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    padding: 10rem;
+    margin-top: 35rem;
+}
